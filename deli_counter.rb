@@ -6,6 +6,7 @@ def line(deli)
   else deli.length > 0 
     new_array = ["The line is currently:"]
     deli.each_with_index do |name, index|
-      new_array << "#{index +1}. "
+      new_array << "#{index +1}. #{name}"
 end
+  puts new_array.join(" ")
 end
