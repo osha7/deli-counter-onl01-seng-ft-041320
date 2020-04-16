@@ -12,4 +12,4 @@ end
 end
 end
 
-def take_a_number(deli, name)
+def take_a_number(deli,name)
