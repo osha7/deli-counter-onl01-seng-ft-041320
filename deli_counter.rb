@@ -23,5 +23,5 @@ def now_serving(deli)
   else
     puts "Currently serving #{deli[0]}."
   end
-    
+  end
     
